@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1160539823656442}
+  m_IsPrefabParent: 1
+--- !u!1 &1160539823656442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4921356501947588}
+  - component: {fileID: 33848370658634068}
+  - component: {fileID: 114299121793588468}
+  - component: {fileID: 23893661355624500}
+  - component: {fileID: 64259294872689816}
+  m_Layer: 0
+  m_Name: Lake Polygon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4921356501947588
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160539823656442}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -321.4906, y: 42.4, z: 350.62177}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23893661355624500
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160539823656442}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: fe2fe360298f859419480adf75c03527, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33848370658634068
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160539823656442}
+  m_Mesh: {fileID: 0}
+--- !u!64 &64259294872689816
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160539823656442}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 0}
+--- !u!114 &114299121793588468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160539823656442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 972fcd29bf9fe274087ba3a700bac4d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: []
+  splinePoints:
+  - {x: -12.277333, y: 0, z: 8.6750345}
+  - {x: 3.5657215, y: 0, z: -4.5199037}
+  - {x: 18.922543, y: 0, z: -17.098492}
+  - {x: 26.944382, y: 0, z: -23.403126}
+  - {x: 24.230555, y: 0, z: -20.38308}
+  - {x: 14.958533, y: 0, z: -11.569745}
+  - {x: 3.6467094, y: 0, z: -1.1787205}
+  - {x: -5.186508, y: 0, z: 6.5744057}
+  - {x: -11.953222, y: 0, z: 11.708044}
+  - {x: -18.524254, y: 0, z: 16.08965}
+  - {x: -22.569256, y: 0, z: 18.277214}
+  - {x: -21.757874, y: 0, z: 16.828724}
+  terrainCarve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.22917153
+      value: 0.5509198
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 2.3072248
+      value: -0.004062772
+      inSlope: -0.3008448
+      outSlope: -0.3008448
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.6289025
+      outWeight: 0.089878805
+    - serializedVersion: 3
+      time: 71.691826
+      value: -9.461111
+      inSlope: -0.1755318
+      outSlope: -0.1755318
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14452057
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distSmooth: 8
+  uvScale: 5
+  distSmoothStart: 1
+  terrainPaintCarve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.005520534
+      value: 0.0009701699
+      inSlope: 0.005367936
+      outSlope: 0.005367936
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9607032
+      value: 0.014097841
+      inSlope: 0.017567294
+      outSlope: 0.017567294
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.081568055
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.002862
+      value: 0.052587807
+      inSlope: 0.050326973
+      outSlope: 0.050326973
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.080966085
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 3.9146736
+      value: 0.47956586
+      inSlope: 0.03185935
+      outSlope: 0.03185935
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.55609405
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  currentSplatMap: 2
+  maximumTriangleSize: 100
+  traingleDensity: 0.25
+  height: 0
+  lockHeight: 1
+  yOffset: 0
+  trianglesGenerated: 52
+  currentMesh: {fileID: 0}
+  vegetationMaskResolution: 0.5
+  vegetationMaskPerimeter: 5
+  vegetationMaskArea: {fileID: 0}

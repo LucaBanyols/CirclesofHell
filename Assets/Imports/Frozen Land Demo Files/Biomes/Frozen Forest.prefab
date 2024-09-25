@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8713545520614634038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8713545520614634036}
+  - component: {fileID: 8713545520614634039}
+  m_Layer: 0
+  m_Name: Frozen Forest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8713545520614634036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8713545520614634038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -203.7, y: 83.59, z: -19.617054}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8713545520614634039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8713545520614634038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f67dd93e145c1e418ea1d59e1ad5706, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nodes:
+  - Selected: 0
+    Position: {x: 49.490173, y: 14.554977, z: 51.903687}
+    OverrideWidth: 0
+    CustomWidth: 2
+    Active: 1
+    DisableEdge: 0
+  - Selected: 0
+    Position: {x: -3, y: 3.2359772, z: 28.470947}
+    OverrideWidth: 0
+    CustomWidth: 2
+    Active: 1
+    DisableEdge: 0
+  - Selected: 0
+    Position: {x: -24.940247, y: -6.2136536, z: 1.3959961}
+    OverrideWidth: 0
+    CustomWidth: 2
+    Active: 1
+    DisableEdge: 0
+  - Selected: 0
+    Position: {x: -3, y: -9.435883, z: -45.633057}
+    OverrideWidth: 0
+    CustomWidth: 2
+    Active: 1
+    DisableEdge: 0
+  ClosedArea: 1
+  ShowArea: 1
+  ShowHandles: 1
+  MaskName: Frozen Forest
+  Id: 5da55d92-66aa-4916-9be9-61076d713f9b
+  BiomeType: 14
+  GroundLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  BlendCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  InverseBlendCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  TextureBlendCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.7374429
+      inSlope: 0.24289405
+      outSlope: 0.24289405
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.9893617
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BlendDistance: 12
+  NoiseScale: 35
+  UseNoise: 0

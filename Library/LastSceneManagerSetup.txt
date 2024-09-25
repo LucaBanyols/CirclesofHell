@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/Circle01-Limbo.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

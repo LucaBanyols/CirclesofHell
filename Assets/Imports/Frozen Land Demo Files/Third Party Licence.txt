@@ -1,0 +1,6 @@
+Clouds.psd
+Unity Companion License
+[license and copyright/accreditation details—determined by relevant license]
+
+License link:
+https://unity3d.com/legal/licenses/Unity_Companion_License

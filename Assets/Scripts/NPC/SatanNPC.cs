@@ -1,0 +1,66 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+public class SatanNPC : MonoBehaviour
+{
+    public GameObject inttext, Dialog, dialogImage;
+    public GameObject satanNPC;
+    public TMP_Text dialogText;
+    public Sprite speakerImage;
+    public AudioSource talk;
+    public List<string> speakerTalk = new List<string>();
+    public bool interactable;
+    private int currentText = 0;
+    private Animator satanAnimator;
+
+    private void Start()
+    {
+        satanAnimator = satanNPC.GetComponent<Animator>();
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("PlayerInteraction"))
+        {
+            inttext.SetActive(true);
+            interactable = true;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("PlayerInteraction"))
+        {
+            inttext.SetActive(false);
+            interactable = false;
+            Dialog.SetActive(false);
+            currentText = 0;
+            satanAnimator.enabled = true;
+        }
+    }
+
+    void Update()
+    {
+        if(interactable == true)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (currentText < speakerTalk.Count)
+                {
+                    dialogText.text = speakerTalk[currentText];
+                    dialogImage.GetComponent<Image>().sprite = speakerImage;
+                    //talk.Play();
+                    Dialog.SetActive(true);
+                    currentText += 1;
+                } else {
+                    Dialog.SetActive(false);
+                    currentText = 0;
+                    satanAnimator.enabled = true;
+                }
+            }
+        }
+    }
+}

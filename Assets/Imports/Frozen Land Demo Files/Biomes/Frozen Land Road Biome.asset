@@ -1,0 +1,593 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1187c6f5a2aa584084ba67ab2162dbf, type: 3}
+  m_Name: Frozen Land Road Biome
+  m_EditorClassIdentifier: 
+  PackageName: Frozen Land Road
+  VegetationInfoList: []
+  TerrainTextureSettingsList:
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 0
+    Enabled: 1
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.016666668
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.23095238
+        value: 0.99
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 1
+    NoiseScale: 25
+    TextureWeight: 0.54
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 1
+    Enabled: 1
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.123809524
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.25925925
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 2
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.06481481
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2685185
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.3148148
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 3
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.97722083
+        outSlope: 0.97722083
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.27576602
+        value: 0.260745
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.6935933
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 1
+    NoiseScale: 5
+    TextureWeight: 0.88
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 1
+    TextureLayer: 4
+    Enabled: 1
+    LockTexture: 0
+    ConcaveEnable: 1
+    ConvexEnable: 1
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 7.26
+    ConcaveDistance: 17.29
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 5
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 6
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.15877438
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.724234
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 7
+    Enabled: 1
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 1
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 8
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  TerrainTextureList:
+  - Texture: {fileID: 2800000, guid: e3d23591e079b694dbef7559cff1c714, type: 3}
+    TextureNormals: {fileID: 2800000, guid: f60384dc9bf570a4990afa5ced417875, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 8, y: 8}
+    Offset: {x: 0, y: 0}
+    TerrainLayer: {fileID: 0}
+  - Texture: {fileID: 2800000, guid: 9e4ef24ab4ca2ac4fa4293e3e1fc838f, type: 3}
+    TextureNormals: {fileID: 2800000, guid: b269babc2e7e73b4686aabbc5fcd7f42, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 10, y: 10}
+    Offset: {x: 0, y: 0}
+    TerrainLayer: {fileID: 0}
+  - Texture: {fileID: 2800000, guid: a093c8407231fad42b427da94f94697b, type: 3}
+    TextureNormals: {fileID: 2800000, guid: 779381c036262ab4aaf5de497e3c6bae, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 8, y: 8}
+    Offset: {x: 0, y: 0}
+    TerrainLayer: {fileID: 0}
+  - Texture: {fileID: 2800000, guid: 66fe8d3ad05e2694a85f51a72e1f4527, type: 3}
+    TextureNormals: {fileID: 2800000, guid: 0c3b5a49bd225e246a27271aad02cafe, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 8, y: 8}
+    Offset: {x: 0, y: 0}
+    TerrainLayer: {fileID: 0}
+  - Texture: {fileID: 2800000, guid: c01c40b99d590b94a9f7756d16fabc6c, type: 3}
+    TextureNormals: {fileID: 2800000, guid: 628a840348d4a8941a0e5f1eab080bf1, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 8, y: 8}
+    Offset: {x: 0, y: 0}
+    TerrainLayer: {fileID: 0}
+  - Texture: {fileID: 2800000, guid: 8c1da5768288046438f3202aa324fefa, type: 3}
+    TextureNormals: {fileID: 2800000, guid: 62df54cfc902b644d98dd6f405dc4cad, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 7, y: 7}
+    Offset: {x: 0, y: 0}
+    TerrainLayer: {fileID: 0}
+  - Texture: {fileID: 2800000, guid: 5d4d9236c9b524f40b5ea9073d846e8c, type: 3}
+    TextureNormals: {fileID: 2800000, guid: e4890495b9487524c90fdf9537e065fd, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 10, y: 10}
+    Offset: {x: 0, y: 0}
+    TerrainLayer: {fileID: 0}
+  - Texture: {fileID: 2800000, guid: 576d0f813a04b4241b8b4cc2cd4a802b, type: 3}
+    TextureNormals: {fileID: 2800000, guid: cc9e8612e46995f48b855e16d7a4b3e4, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 30, y: 30}
+    Offset: {x: 0, y: 0}
+    TerrainLayer: {fileID: 0}
+  TextureMaskGroupList: []
+  TerrainTextureCount: 8
+  BiomeType: 20
+  BiomeSortOrder: 2
+  GenerateBiomeSplamap: 1

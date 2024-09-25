@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartVideo.unity
+    guid: 34be5d30fde3c044097bda619f1ee72f
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Purgatory.unity
+    guid: acfdc76c5ca6b464fa36f8f1e0a9bf00
+  - enabled: 1
+    path: Assets/Scenes/Circle01-Limbo.unity
+    guid: 663ab8be350eb8c40abfd0cc7968bb0b
+  - enabled: 1
+    path: Assets/Scenes/Dropper01.unity
+    guid: 14a0f1bedb3174e49898f0c4861fb61e
+  - enabled: 1
+    path: Assets/Scenes/Circle02-Lust.unity
+    guid: 0be325d65e1e04acf840274f98de38d0
+  - enabled: 1
+    path: Assets/Scenes/Dropper02.unity
+    guid: 9fc3cdcb8269b4eb6b2f062fed15e538
+  - enabled: 1
+    path: Assets/Scenes/Circle03-Gluttony.unity
+    guid: 8444454d9d6d8f543a8a9b66a0fedaf7
+  - enabled: 1
+    path: Assets/Scenes/Dropper03.unity
+    guid: ca66130b585984a7eb32ed7d7c2cc4a8
+  - enabled: 1
+    path: Assets/Scenes/Circle04-Greed.unity
+    guid: f19598d5b1ad74b92a0bb7f0e951c14e
+  - enabled: 1
+    path: Assets/Scenes/Dropper04.unity
+    guid: ceae3b28ff35b4133b2a2e4ba5b414cf
+  - enabled: 1
+    path: Assets/Scenes/Circle05-Wrath.unity
+    guid: 0437298e358844931b3ef12f9e2f4587
+  - enabled: 1
+    path: Assets/Scenes/Dropper05.unity
+    guid: 310ddcf475c694edd9909b6fed573c73
+  - enabled: 1
+    path: Assets/Scenes/Circle06-Heresy.unity
+    guid: f9b80ef76366241a2b580ae2ad2d89de
+  - enabled: 1
+    path: Assets/Scenes/Dropper06.unity
+    guid: fd5dd4579735348e7b971f8ce69b9760
+  - enabled: 1
+    path: Assets/Scenes/Circle07-Violence.unity
+    guid: 799da49b5a4b04b2f87172f59cf1d3ed
+  - enabled: 1
+    path: Assets/Scenes/Dropper07.unity
+    guid: e726a8b5dbdfc443ca99aa392a5e3f9d
+  - enabled: 1
+    path: Assets/Scenes/Circle08-Fraud.unity
+    guid: f4021bc829b444148a3959ec85eeeceb
+  - enabled: 1
+    path: Assets/Scenes/Circle09-Treachery.unity
+    guid: 025516b476efa460e8744936d6f45e14
+  - enabled: 1
+    path: Assets/Scenes/EndTreachery.unity
+    guid: a379a7fa3880110488c184bfdbd194bf
+  - enabled: 1
+    path: Assets/Scenes/EndGreed.unity
+    guid: a95364fb803fb014786cd5d7758f15f6
+  - enabled: 1
+    path: Assets/Scenes/EndGluttony.unity
+    guid: 5f1dc7634f36f5044be05ae5bf37ceb3
+  - enabled: 1
+    path: Assets/Scenes/EndLimbo.unity
+    guid: 19fc830038a184e41bd7012364ea989b
+  - enabled: 1
+    path: Assets/Scenes/EndLust.unity
+    guid: 193913d09feb7a744b5ee803ffa34753
+  m_configObjects: {}

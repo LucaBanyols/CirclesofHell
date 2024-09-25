@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d559ec07676f794ea460d4324322121, type: 3}
+  m_Name: Frozen Land Road Profile
+  m_EditorClassIdentifier: 
+  splineMaterial: {fileID: 2100000, guid: 1d4bc856fa09d154dba4b6e48c055050, type: 2}
+  meshCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.003043048
+      value: -0.14812604
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.029249411
+      value: 0.114242576
+      inSlope: 0.054176286
+      outSlope: 0.054176286
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.22655472
+      value: 0.090539314
+      inSlope: 0.009193429
+      outSlope: 0.009193429
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.48450205
+      value: 0.12172494
+      inSlope: -0.0090152025
+      outSlope: -0.0090152025
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7791645
+      value: 0.07710723
+      inSlope: -0.0011513223
+      outSlope: -0.0011513223
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9737331
+      value: 0.099780254
+      inSlope: -0.072168805
+      outSlope: -0.072168805
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9948708
+      value: -0.15184918
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  minVal: 0.37
+  maxVal: 0.68
+  vertsInShape: 9
+  traingleDensity: 0.03125
+  uvScale: 1
+  uvRotation: 1
+  flowFlat:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.025
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 0.05
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.025
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flowWaterfall:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.25
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.25
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  terrainCarve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -19.285027
+      value: -0.06748581
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: -9.536128
+      value: -0.59544396
+      inSlope: -0.1794039
+      outSlope: -0.1794039
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.24314561
+    - serializedVersion: 3
+      time: -6.3523846
+      value: -1.259732
+      inSlope: -0.018232597
+      outSlope: -0.018232597
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.52918327
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -3.4090848
+      value: -0.58650887
+      inSlope: 0.15397671
+      outSlope: 0.15397671
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -1.2109175
+      value: -0.15928864
+      inSlope: 0.003334859
+      outSlope: 0.003334859
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.4434057
+      outWeight: 0.14889248
+    - serializedVersion: 3
+      time: 4.4287577
+      value: -0.19145052
+      inSlope: -0.0003746441
+      outSlope: -0.0003746441
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 10.1033325
+      value: -0.13222122
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distSmooth: 5
+  distSmoothStart: 2
+  terrainPaintCarve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.052547455
+      value: 0.17536926
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1.0186157
+      value: 0.1991005
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  receiveShadows: 0
+  shadowCastingMode: 0
+  biomeType: 0
